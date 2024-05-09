@@ -1,0 +1,36 @@
+#card div{
+    width: 300px;
+    height: 330px;
+background-color: cornflowerblue;
+border-radius: 20px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.70);
+text-align: center;
+margin: 15px;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.a:hover{
+color: orangered;
+}
+.b:hover{
+color: gold;
+}
+.c:hover{
+color: rgb(65, 214, 70);
+}
+.a{
+transition: 0.5s;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.b{
+    transition: 0.5s;
+font-family: Arial, Helvetica, sans-serif;
+}
+.c{
+    transition: 0.5s;
+    font-family:Arial, Helvetica, sans-serif;
+}
